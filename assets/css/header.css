@@ -1,0 +1,110 @@
+header{
+    background-color: #242526;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-bottom: 2px solid #393a3b;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.logo-search{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.facebook-logo{
+    color: #0d8af0;
+    background-color: white;
+    font-size:45px;
+    clip-path: circle(40%);
+}
+
+.search{
+    margin-left: 5px;
+}
+
+.search form{
+    position: relative;
+}
+
+.search i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:10px;
+    color: #b0b3b8;
+}
+
+#search-bar{
+    height: 38px;
+    width: 230px;
+    border: none;
+    border-radius: 18px;
+    background-color: #3a3b3c;
+    padding: 0 20px;
+    color: white;
+    font-size: 16px;
+}
+
+#search-bar:focus{
+    outline: none;
+}
+
+#search-bar:focus ~ i{
+    display: none;
+}
+
+/* navigation */
+.nav{
+    display: flex;
+    color: #b0b3b8;
+    font-size: 20px;
+}
+
+.nav>div{
+    margin: 0 5px;
+    border-radius: 8px;
+    padding: 12px 40px;
+}
+
+.nav--hover>div:hover{
+    background-color: #3a3b3c;
+    cursor: pointer;
+}
+
+/* messager, infor, notify,menu */
+.MMNI{
+    display: flex;
+    color: #b0b3b8;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.MMNI>div{
+    background-color: #3a3b3c;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.MMNI--hover>div:hover{
+    background-color: #4e4f50;
+    cursor: pointer;
+}
+
+

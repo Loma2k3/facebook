@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.grid {
+    width: 100%;
+    max-width: 2000px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* scrollbar */
+
+.scroll-bar{
+    overflow: scroll;
+}
+
+.scroll-bar::-webkit-scrollbar{
+   width: 0px;
+}
+
+
+/* gutter */
+
+.gutter-10 {
+    padding: 0 10px;
+}
+
+.gutter-15 {
+    padding: 0 15px;
+}
+
+.padding-top {
+    padding-top: 55px;
+    background-color: #18191a;
+}
+
+/* row */
+.grid__row-0 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__row-15 {
+    /* width: 100%; */
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-item{
+    display: flex;
+    justify-content: center;
+}
+
+/* 2 column */
+.grid__2-column-1 {
+    width: calc((100% / 2) * 1);
+}
+
+.grid__2-column-2 {
+    width: calc((100% / 2) * 2);
+}
+
+/* 3 column */
+.grid__3-column-1 {
+    width: calc((100% / 3) * 1);
+}
+
+.grid__3-column-2 {
+    width: calc((100% / 3) * 2);
+}
+
+.grid__3-column-3 {
+    width: calc((100% / 3) * 3);
+}
+
+/* 13 column */
+.grid__13-column-1 {
+    width: calc((100% / 13) * 1);
+}
+
+.grid__13-column-2 {
+    width: calc((100% / 13) * 2);
+}
+
+.grid__13-column-3 {
+    width: calc((100% / 13) * 3);
+}
+
+.grid__13-column-4 {
+    width: calc((100% / 13) * 4);
+}
+
+.grid__13-column-5 {
+    width: calc((100% / 13) * 5);
+}
+
+.grid__13-column-6 {
+    width: calc((100% / 13) * 6);
+}
+
+.grid__13-column-7 {
+    width: calc((100% / 13) * 7);
+}
+
+.grid__13-column-8 {
+    width: calc((100% / 13) * 8);
+}
+
+.grid__13-column-9 {
+    width: calc((100% / 13) * 9);
+}
+
+.grid__13-column-10 {
+    width: calc((100% / 13) * 10);
+}
+
+.grid__13-column-11 {
+    width: calc((100% / 13) * 11);
+}
+
+.grid__13-column-12 {
+    width: calc((100% / 13) * 12);
+}
+
+.grid__13-column-13 {
+    width: calc((100% / 13) * 13);
+}
